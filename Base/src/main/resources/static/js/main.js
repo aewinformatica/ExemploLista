@@ -48,7 +48,7 @@ $(function() {
 $('.js-contraste-toggle').bind('click',function(){
 	
 	$('.js-navbar').toggleClass('navbar-inverse');
-	$('body').css("background-color","black");
+	$('.aew-corpo').toggleClass('aew-alto-contraste');
 }
 		
 );
